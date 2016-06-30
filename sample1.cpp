@@ -1,8 +1,10 @@
 #include <iostream>
 
-#include <lua.hpp>
 #include <stdint.h>
 #include "lua_tinker.h"
+
+#pragma comment(lib, "lua_lib.lib")
+
 enum NumEnum {
     ONE = 1,
     TWO = 2,
