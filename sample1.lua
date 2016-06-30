@@ -5,7 +5,6 @@ print(type(ONE))
 local lua_str = "zfz"
 cpp_test_str(lua_str)
 print(task_id)
---  next error info： attempt to perform arithmetic on global 'task_id' (a userdata value)
 local zfz = task_id + 20 
 print(zfz)
 

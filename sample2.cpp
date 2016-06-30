@@ -1,7 +1,8 @@
-#include <lua.hpp>
-#include "lua_tinker.h"
+﻿#include "lua_tinker.h"
 
 static int cpp_int = 100;
+
+#pragma comment(lib, "lua_lib.lib")
 
 int main()
 {

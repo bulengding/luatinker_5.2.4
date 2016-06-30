@@ -1146,7 +1146,7 @@ RVal call(lua_State* L, const char* name, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5
         static const char* name(const char* name = NULL)
         {
             static char temp[256] = "";
-            if (name != NULL) strncpy(temp, name, sizeof(temp)-1);
+            if (name != NULL) strncpy_s(temp, name, sizeof(temp)-1);
             return temp;
         }
     };

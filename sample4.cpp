@@ -1,12 +1,7 @@
-extern "C" 
-{
-#include "lua.h"
-#include "lualib.h"
-#include "lauxlib.h"
-};
-
 #include "lua_tinker.h"
 #include <stdint.h>
+
+#pragma comment(lib, "lua_lib.lib")
 
 int main()
 {

@@ -1,11 +1,6 @@
-extern "C" 
-{
-#include "lua.h"
-#include "lualib.h"
-#include "lauxlib.h"
-};
-
 #include "lua_tinker.h"
+
+#pragma comment(lib, "lua_lib.lib")
 
 void show_error(const char* error)
 {
